@@ -59,7 +59,7 @@ if ($text === '/start') {
         'reply_markup' => json_encode([
             'inline_keyboard' => [
                 [
-                    ['text' => 'Play PDF Now', 'web_app' => ['url' => 'https://app.companybro.com']],
+                    ['text' => 'Play PDF Now', 'web_app' => ['url' => 'https://pdf-bot.netlify.app']],
                     ['text' => 'Join Our Community', 'url' => 'https://t.me/companybrodigital']]
             ]
         ])
