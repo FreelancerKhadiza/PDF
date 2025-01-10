@@ -67,7 +67,7 @@ if (isset($update['message']['text']) && strpos($text, '/start') === 0) {
         ";
 
         // If there was a referrer, include their ID in the link
-        $referralLink = $referrer_id ? "https://v2.bleggs.com/?ref=$referrer_id" : "https://v2.bleggs.com";
+        $referralLink = $referrer_id ? "https://pdf-bot.netlify.app/?ref=$referrer_id" : "https://pdf-bot.netlify.app";
 
         // Add referral link to caption if there was a referrer
         $caption .= "\n\n🎁 **Join through this link and double the fun:** $referralLink";

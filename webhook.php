@@ -60,7 +60,7 @@ if ($text === '/start') {
             'inline_keyboard' => [
                 [
                     ['text' => 'Play PDF Now', 'web_app' => ['url' => 'https://pdf-bot.netlify.app']],
-                    ['text' => 'Join Our Community', 'url' => 'https://t.me/companybrodigital']]
+                    ['text' => 'Join Our Community', 'url' => 'https://t.me/khbappbot']]
             ]
         ])
     ];
